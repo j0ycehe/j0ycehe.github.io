@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    display: flex;
+    background-color: #D9D9D9;
+    transition: 0.2s ease-in-out;
+    cursor: none;
+}
+
+/* POINTER */
+
+#pointer {
+    position: absolute;   
+}
+
+.wrapper {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    top: 35vh;
+    /* border: black 1px solid; */
+}
+
+
+/* SIGN */
+
+.sign {
+    height: 52vh;
+}
+
+/* SHEEP */
+
+#sheep {
+    position: absolute;
+    z-index: 1;
+    height: 27vh;
+}
+
+#body {
+    fill:#f4f4f5;
+}
+
+#body:hover {
+    cursor: pointer;
+}
+
+#insides {
+    fill: silver;
+}
+
+#limbs {
+    fill: #0d0d0d;
+}
+
+#outer-eye {
+    fill: #fff;
+}
+
+#inner-eye {
+    fill: #b51e5b;
+}
+
+.text {
+    fill: #0d0d0d;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.in-belly {
+    cursor: pointer;
+}
+
+#about:hover {
+    fill: white;
+    cursor: ne-resize;
+}
+
+#work:hover {
+    fill: white;
+    cursor: ne-resize;
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        top: 45vh;
+    }
+
+    #sheep {
+        height: 18vh;
+    }
+
+    .sign {
+        height: 40vh;
+        width: auto;
+    }
+    
+}
