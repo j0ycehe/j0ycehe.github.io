@@ -4,11 +4,14 @@
 }
 
 :root {
-    --card-text-color: #62002D;
-    --background-color: #E72674;
-    --accent-color: #079C4C;
-    /* --background-color: #17b661;
-    --accent-color: #E72674; */
+    --card-text-color: #000000;
+    /* --background-color: #E72674; */
+    /* --background-color: #e90f0f; */
+    --background-color: #F4F4F5; 
+    /* --accent-color: #E72674; */
+    /* --background-color: #17b661; */
+    /* --background-color: #e6ffd7; */
+    --accent-color: #079C4C; 
     --card-spacing: 10px;
     scroll-behavior: smooth;
 }
